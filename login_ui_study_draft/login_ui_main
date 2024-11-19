@@ -23,3 +23,29 @@ class MyApp extends StatelessWidget {
     );
   }
 }
+
+/*
+// kksc App-Fe 부분에 넣어놨던거 - 비교해서 정리하기
+import 'package:flutter/material.dart';
+import 'package:untitled/login_ui/login_page.dart';
+
+void main() {
+  runApp(const MyApp());
+}
+
+class MyApp extends StatelessWidget {
+  const MyApp({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      title: 'Flutter Demo',
+      theme: ThemeData(
+        primarySwatch: Colors.deepPurple,
+      ),
+      home: LoginPage(),
+      debugShowCheckedModeBanner: true,
+    );
+  }
+}
+*/
